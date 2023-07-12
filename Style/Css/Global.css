@@ -1,0 +1,80 @@
+:root {
+    --font-family: Montserrat;
+    --text-color: #2f281e;
+    --text-muted: #7f7569;
+    --primary-color: #3a5aff;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../Font/Montserrat-Thin.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../Font/Montserrat-ExtraLight.ttf");
+    font-weight: 200;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../Font/Montserrat-Light.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../Font/Montserrat-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../Font/Montserrat-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../Font/Montserrat-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../Font/Montserrat-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../Font/Montserrat-ExtraBold.ttf");
+    font-weight: 800;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../Font/Montserrat-Black.ttf");
+    font-weight: 8900;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 50%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    text-rendering: optimizeSpeed;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
